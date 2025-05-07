@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="tittle">
+        <h1>
+          ImageBro
+        </h1>
+      </div> 
+      
+      <div>
+        <input type="file" name="" id="upload" value="" accept="image/*"/>
+        <div id="preview-area">
+          <img src="#" alt="Preview image" id="preview" />
+        </div> 
+        <div class="controls">
+          <label> Width : 
+            <input type="number" name="width" id="width" value="" />
+          </label> 
+          <label> Height : 
+          <input type="number" name="height" id="height" value="" />
+          </label> 
+          <label> Lock Aspect Ratio : 
+            <input type="checkbox" name="aspect-ratio" id="aspect-ratio" />
+          </label>   
+  <button id="resizeBtn">
+    Resize Image
+  </button>
+        </div>
+        <canvas id="canvas"></canvas>
+        <a href="" id="download" download="resized-image.png">
+          Download Image
+        </a>
+      </div>
+
+
+
+
+    </div>
+    
+    
+    
+    <center>
+      <footer>
+        <p>
+          &copy; Created By - Md. Imtiaz Khondokar Supto 
+        </p>
+      </footer>
+    </center>
+    
+ <script src="script.js"></script>
+  </body>
+</html>
